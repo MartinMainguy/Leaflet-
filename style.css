@@ -1,0 +1,20 @@
+#map{position:absolute; top:0; bottom:0; width:99%;}
+.custom-title {
+    font-family: 'Poppins', sans-serif;  /* Police moderne */
+    font-size: 18px;                    /* Taille de la police */
+    font-weight: 600;                   /* Poids de la police */
+    color: #ffffff;                     /* Couleur du texte */
+    margin: 5px 0;
+    padding: 8px 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Fond sombre semi-transparent */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Ombre pour donner un effet de profondeur */
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease;  /* Transition douce pour le survol */
+}
+
+/* Effet de survol pour l'interactivité */
+.custom-title:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Un peu plus foncé quand on survole */
+    transform: scale(1.05);  /* Agrandissement au survol */
+}
